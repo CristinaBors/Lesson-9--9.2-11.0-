@@ -10,24 +10,26 @@
         <h1>
             Apply for TRAINING
         </h1>
-        Your name: <input type="text"/> <br/>
-        Your email:<input type="text"/> <br/>
-        Phone: <input type="number" ?> <br/>
+        Your name: <input type="text" required/> <br/>
+        Your email:<input type="text" required/> <br/>
+        Phone: <input type="number" required /> <br/>
 
         <br/>
         Choose course: <br/>
-        <select>
+        <select required>
             <option>HTML Basics Training</option>
             <option>CSS Basics Training</option>
         </select>
         <br/>
         Choose hours:<br/>
-        <select>
+        <select required>
             <option>09:00</option>
             <option>10:00</option>
             <option>18:00</option>
             <option>19:00</option>
         </select>
+
+        <p> I accept <a href="terms" /> and conditions </p><input type="checkbox" required />
         <hr/>
         <button>APPLY</button>
 
